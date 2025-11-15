@@ -1,0 +1,22 @@
+Running MAS-rkAMM Simulation with 10000 loans...
+Simulation Complete.
+
+--- Results Snapshot ---
+   loan_id       p_d  collateral_level  loss_given_default   premium outcome  profit_loss  lp_pool_balance
+0        0  0.011539          0.776921            0.223079  0.002604  Repaid     0.002604         0.002604
+1        1  0.189403          0.421195            0.578805  0.135243  Repaid     0.135243         0.137847
+2        2  0.060031          0.679938            0.320062  0.020441  Repaid     0.020441         0.158288
+3        3  0.147331          0.505338            0.494662  0.085472  Repaid     0.085472         0.243759
+4        4  0.233753          0.332495            0.667505  0.203630  Repaid     0.203630         0.447390
+
+--- Key Metrics ---
+Total Premiums Collected: 1218.2620
+Total Losses Paid (from defaults): 955.9688
+LP Pool Net Profit: 262.2932
+Average LP Yield per Loan: 0.026229
+Total Defaults: 1561
+
+This simulation shows the rkAMM model successfully prices risk,
+leading to a positive expected return for the LP pool, even
+with a high number of defaults.
+=== Code execution complete ===
