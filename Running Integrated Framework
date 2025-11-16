@@ -1,0 +1,38 @@
+--- Running Ablation Study (Head-to-Head) ---
+Ablation study complete.
+
+--- Ablation Study Results (Table 1) ---
+
+Strategy: Reverse Kelly
+  CAGR: -0.0% (±0.0%)
+  Max Drawdown: 15.0% (±2.2%)
+  Loss Ratio: 2.3% (±0.0%)
+  Capital Utilization: 100.0% (±0.0%)
+
+Strategy: Proportional Premium
+  CAGR: 0.2% (±0.0%)
+  Max Drawdown: 3.3% (±0.2%)
+  Loss Ratio: 10.0% (±0.1%)
+  Capital Utilization: 100.0% (±0.0%)
+
+Strategy: Fixed Premium
+  CAGR: -100.0% (±0.0%)
+  Max Drawdown: 626.9% (±7.1%)
+  Loss Ratio: 10.0% (±0.1%)
+  Capital Utilization: 100.0% (±0.0%)
+
+--- Running Fat-Tailed PD Shock Stress Test ---
+PD Stream | Allocation (f*)
+----------------------------
+PD: 0.55 | f*: 0.00 (CLIPPED)
+PD: 0.76 | f*: 0.00 (CLIPPED)
+PD: 0.43 | f*: 0.00 (CLIPPED)
+Stress test complete. Note how high PDs result in f* = 0.0.
+
+--- Running Dynamic MAS Simulation ('Virtuous Cycle') ---
+Dynamic MAS simulation complete.
+Mean final reputation: 5.32 (Std: 18.93)
+Bimodal distribution is evident in the histogram plot (Figure 3).
+
+--- Running Esteva et al. (2023) Data Validation ---
+Error: Could not download or run Esteva validation. Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
