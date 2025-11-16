@@ -1,0 +1,57 @@
+Downloading Esteva et al. (2023) dataset from:
+https://www.google.com/search?q=https://raw.githubusercontent.com/ballesterosbr/rkAMM/master/notebooks/simulated/l_invoices_10k_0.6_0.3_0.01.csv
+
+Successfully loaded 10000 invoices.
+Dataset 'p_d' distribution (as per Esteva et al.):
+p_d
+0.30    0.6
+0.01    0.4
+Name: proportion, dtype: float64
+
+========================================
+
+Running simulation with C = 0%...
+...processed 1000/10000 loans.
+...processed 2000/10000 loans.
+...processed 3000/10000 loans.
+...processed 4000/10000 loans.
+...processed 5000/10000 loans.
+...processed 6000/10000 loans.
+...processed 7000/10000 loans.
+...processed 8000/10000 loans.
+...processed 9000/10000 loans.
+...processed 10000/10000 loans.
+...Run complete.
+
+--- Financial Summary (C = 0%) ---
+Total Premiums Collected: 2,612.04
+Total Defaults:         1,840 / 10000
+Total Losses Paid:      1,840.00
+NET PROFIT/LOSS:        772.04
+Result: The LP pool was profitable.
+
+========================================
+
+Running simulation with C = 60%...
+...processed 1000/10000 loans.
+...processed 2000/10000 loans.
+...processed 3000/10000 loans.
+...processed 4000/10000 loans.
+...processed 5000/10000 loans.
+...processed 6000/10000 loans.
+...processed 7000/10000 loans.
+...processed 8000/10000 loans.
+...processed 9000/10000 loans.
+...processed 10000/10000 loans.
+...Run complete.
+
+--- Financial Summary (C = 60%) ---
+Total Premiums Collected: 1,044.82
+Total Defaults:         1,840 / 10000
+Total Losses Paid:      736.00
+NET PROFIT/LOSS:        308.82
+Result: The LP pool was profitable.
+
+========================================
+
+All simulations on Esteva et al. (2023) data are complete.
