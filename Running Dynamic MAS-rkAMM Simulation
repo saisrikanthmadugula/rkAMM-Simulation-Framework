@@ -1,0 +1,16 @@
+Running Dynamic MAS-rkAMM Simulation...
+Model: 500 borrowers, 20 loans each.
+Total Transactions: 10000
+Dynamic simulation complete.
+
+--- Analysis of Plots ---
+Plot 1 (Left): Check for the bimodal distribution (peaks ~45 and ~78).
+  This shows the 'virtuous' and 'vicious' cycles separating borrowers.
+
+Plot 2 (Right): Check for the downward trend in required collateral.
+  This demonstrates the 'virtuous cycle' in action.
+
+Model Validation:
+  Avg. collateral change after 1 successful repayment: -2.37%
+  (This value can be tuned by adjusting the REPAY_BUMP constant in the script).
+=== Code execution complete ===
